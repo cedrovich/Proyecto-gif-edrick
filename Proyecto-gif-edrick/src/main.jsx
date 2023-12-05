@@ -7,7 +7,8 @@ import ReactDOM from "react-dom/client";
 // Importamos un componente llamado ProyectoGif desde otro archivo en el mismo directorio
 import { ProyectoGif } from "./ProyectoGif";
 
-import  './styles.css'
+//Importamos los estilos que se encuentran en src. ¿Qué significaba "./"?
+import './styles.css'
  
 // Creamos un nuevo contenedor de raíz React en el elemento con el id 'root'
 // y renderizamos el componente ProyectoGif en él
@@ -18,3 +19,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
  <ProyectoGif />
  </React.StrictMode>
 );
+
